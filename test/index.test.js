@@ -1,21 +1,21 @@
 
-var expect = require('chai').expect;
+import {expect} from 'chai';
 
-var convert = require('../lib');
+import convert  from '../lib';
 
-describe('convert', function () {
+describe('convert', () => {
 
-	it('should times a number by itself', function () {
-		var result = convert(5);
+	it('should times a number by itself', () => {
+		let result = convert(5);
 		expect(result).to.equal(25);
 	});
 
-	it('should reverse a string', function () {
-		var result = convert('meow');
+	it('should reverse a string', () => {
+		let result = convert('meow');
 		expect(result).to.equal('woem');
 	});
 
-	it('should blow up if invalid arg', function () {
+	it('should blow up if invalid arg', () => {
 		expect(convert).to.throw(Error);
 	});
 

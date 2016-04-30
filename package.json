@@ -8,8 +8,7 @@
   },
   "scripts": {
     "cover": "istanbul cover _mocha",
-    "test": "mocha",
-    "test:es6": "mocha --compilers js:babel-core/register"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
