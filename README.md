@@ -15,10 +15,10 @@ This contains libraries and examples of how to use those libraries to write effe
 ### Iteration 4
 - Adding ES6 to node code and testing it.
 
-### Iteration 4.1
+### Iteration C1
 - Client side tests using karma
 
-### Iteration 4.2
+### Iteration C2
 - Coverage for client tests
 
 ## Why are you saving testing utilities as dependencies? 
