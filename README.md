@@ -1,6 +1,8 @@
 
 # test helper
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wookets/test-helper.svg)](https://greenkeeper.io/)
+
 This contains libraries and examples of how to use those libraries to write effective tests using the many testing modules out there. 
 
 ### Iteration 1
